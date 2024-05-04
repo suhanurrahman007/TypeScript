@@ -1,4 +1,5 @@
-const createArray = (param: string): string[] =>{
+{
+    const createArray = (param: string): string[] =>{
     return[param]
 }
 
@@ -21,3 +22,5 @@ const result3 = genericsArray<User>({
 })
 
 console.log(result1, result2, result3)
+
+}
