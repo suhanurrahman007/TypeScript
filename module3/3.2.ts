@@ -1,4 +1,5 @@
-class Person {
+{
+    class Person {
     name: string;
     age: number;
     address: string;
@@ -41,3 +42,5 @@ class Teacher extends Person{
 
 const teacher = new Teacher("SuHan", 24, "Dhaka" , "female")
 // teacher.takeClass
+
+}
